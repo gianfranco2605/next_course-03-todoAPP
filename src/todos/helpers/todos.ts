@@ -12,7 +12,7 @@ export const updateTodo = async (
   id: string,
   complete: boolean
 ): Promise<Todo> => {
-  await sleep(2);
+  await sleep(3);
 
   const body = { complete };
 
