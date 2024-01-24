@@ -22,7 +22,7 @@ export const TodosGrid = ({ todos = [] }: Props) => {
   // };
 
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-3 gap-2">
+    <div className="grid grid-cols-1 sm:grid-cols-3 gap-2 p-5">
       {todos.map((todo) => (
         // toogleTodo from server actions, No rest
         <TodoItem key={todo.id} todo={todo} toggleTodo={toogleTodo} />
